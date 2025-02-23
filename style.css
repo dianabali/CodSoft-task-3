@@ -1,0 +1,337 @@
+body {
+    background-color: #fff0dd;
+}
+
+/* FIRST SECTION */
+.first-section {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 100%), url('background.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    width: 100%;
+    height: 100vh; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.first-section h1 {
+    font-family: 'Sunshiney', serif;
+    font-size: 80px;
+    margin-bottom: 0;
+}
+
+.first-section p {
+    font-family: 'Mali', serif;
+    font-size: 18px;
+}
+
+/* NAVIGATION BAR */
+.nav-bar {
+    background-color: #7e9475;
+    color: white;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    text-align: center; 
+    position: fixed; 
+    z-index: 1000;
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav-bar a{
+    font-family: 'Mali', serif;
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 15px;
+}
+
+.nav-bar a:hover {
+    color: white;
+}
+
+.nav-bar .nav-button {
+    background-color: #ffc369;
+    border: none;
+    padding: 10px 15px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 16px;
+    font-family: 'Mali', serif;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.nav-bar .nav-button:hover {
+    background-color: #ffa530;
+}
+
+.nav-bar img {
+    margin-right: auto;
+    padding-left: 30px;
+}
+
+/* SECOND SECTION */
+.second-section {
+    display: flex;
+    background-color: #f9ddb9;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.box {
+    width: 50%;
+    padding-right: 20px;
+}
+
+.box h2 {
+    color: black;
+    font-family: 'Mali', serif;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-bottom: 5px;
+    padding: 15px;
+}
+
+.box p {
+    font-size: 15px;
+    font-family: 'Mali', serif;
+    margin-left: 60px;
+    padding: 15px;
+}
+
+.box button {
+    background-color: #ffc369; 
+    border: none;
+    padding: 15px;
+    margin-left: 70px;
+    margin-bottom: 55px;
+    font-size: 18px;
+    font-family: 'Mali', serif;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.box button:hover {
+    background-color: #ffa530;
+}
+
+.box-img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-img img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 10px 10px 50% 50%;
+}
+
+/* THIRD SECTION */
+.third-section {
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 40px;
+    background-color: #fff0dd;
+}
+
+.third-section h2 {
+    font-family: 'Mali', serif;
+    font-size: 30px;
+    color: black;
+}
+
+.pet-boxes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
+    gap: 30px;
+}
+
+.pet {
+    background-color: #f9ddb9;
+    width: 30%;
+    padding: 40px;
+    border-radius: 50% 50% 10px 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.pet img {
+    width: 150px; 
+    height: 150px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+.pet p {
+    font-family: 'Mali', serif;
+    font-size: 16px;
+    color: black;
+}
+
+/* FOURTH SECTION */
+.food {
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f9ddb9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.food h2 {
+    font-family: 'Mali', serif;
+    font-size: 30px;
+    padding-top: 20px;
+    color: black;
+}
+
+.foods {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
+    gap: 30px;
+}
+
+.sweets {
+    background-color: #fff0dd;
+    width: 30%;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 10px;
+}
+
+.sweets img {
+    width: 150px; 
+    height: 150px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+.sweets a {
+    font-family: 'Mali', serif;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+.sweets a:hover {
+    text-decoration: underline;
+}
+
+
+/* FOOTER */
+.footer {
+    background-color:#adcda0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px;
+    padding: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 40px;
+    margin-left: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+  
+.footer-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+
+.footer-box img {
+    width: 40%; 
+    height: auto; 
+}
+  
+.footer-box h2 {
+    font-family: 'Mali', serif;
+    margin: 0; 
+}
+
+.footer-box p {
+    font-family: 'Sunshiney', serif;
+    font-size: 28px;
+    color: black;
+    margin: 0; 
+}
+  
+.footer-box a {
+    font-family: 'Mali', serif;
+    text-decoration: none;
+    color: black;
+    margin: 0; 
+}
+
+.footer-box a:hover {
+    text-decoration: underline;
+}
+
+.divider {
+    height: 2px;
+    background-color: black;
+    border-radius: 20%;
+    margin-top: 30px; 
+    margin-bottom: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.social-icons { 
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px; 
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.social-icons h2 {
+    font-size: 20px;
+    font-family: 'Mali', serif;
+    margin: 0;
+}
+
+.social-icons p {
+    font-size: 15px;
+    font-family: 'Mali', serif;
+    margin: 0;
+}
+
+.social-icons a { 
+    text-decoration: none;
+    font-size: 24px; 
+    color: black; 
+    margin-bottom: 10px;
+} 
